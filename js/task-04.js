@@ -1,7 +1,10 @@
+
 const counterContainer = document.querySelector('#counter');
 const decrementBtn = counterContainer.children[0];
 const incrementBtn = counterContainer.children[2];
 const valueText = document.querySelector('#value');
+
+
 let value = 0;
 
 
