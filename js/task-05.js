@@ -6,7 +6,11 @@ const refs = {
 refs.nameInput.addEventListener('input', addName);
 
 function addName(eve) {
-    if (refs.nameInput.value != null) {
+    if (refs.nameInput.value != '') {
         return (refs.nameOutput.textContent = refs.nameInput.value);
     }
+    
+    return (refs.nameOutput.textContent = 'Anonymous')
+
+    
 }
